@@ -1,8 +1,9 @@
-'''
+""" dynamic programming : coin change
 author : Woongwon Lee
-Problem : https://www.hackerrank.com/challenges/ctci-coin-change/problem
-'''
-
+problem : https://www.hackerrank.com/challenges/ctci-coin-change/problem
+output : Print a single integer denoting the number of ways we can make change
+for  dollars using an infinite supply of our  types of coins.
+"""
 
 def make_change(coins, n):
     lookup = [1] + [0] * n
