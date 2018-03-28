@@ -1,4 +1,4 @@
-""" tries : contacts
+""" linked lists : detect a cycle
 author : Woongwon Lee
 problem : https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem
 output : If the list contains a cycle, your function must return true.
